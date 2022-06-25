@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    background-color: #202020;
+    background: rgba(0, 0, 0, 0.8) url(https://wallpaperaccess.com/full/123346.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+span {
+    color: red;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+nav {
+    background-color: #402030;
+    color: white;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a.menu-bar {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 50px;
+}
+
+nav li a.menu-login {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+nav li a.menu-register {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+header {
+
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.header-info {
+    width: 650px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p.header-info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
